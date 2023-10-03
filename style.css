@@ -1,0 +1,76 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.navbar {
+  background-color: #e15f41;
+}
+
+#header .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+  color: #fff;
+}
+
+#header .nav .nav-link.active {
+  background-color: #fff;
+  color: #e15f41;
+}
+
+.navbar-toggler {
+  background-color: #ffeae6;
+}
+
+.section-title {
+  font-family: Pacifico, cursive;
+}
+
+.section-title > span {
+  color: #e15f41;
+}
+
+#about {
+  background-color: #ffeae6;
+}
+
+.text-colored {
+  color: #e15f41;
+}
+
+.nav-cardapio .nav-link.active,
+#talk button {
+  background-color: #e15f41;
+  color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+  color: #e15f41;
+}
+
+#cardapio {
+  background-color: #ffeae6;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links li a {
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 280px;
+  }
+}
+
+#nome-error,
+#email-error,
+#tel-error,
+#msg-error {
+  color: #e15f41;
+  padding: 4px;
+}
